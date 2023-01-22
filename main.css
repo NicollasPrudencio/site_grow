@@ -142,7 +142,7 @@ h1 {
 p {
     position: absolute;
     bottom: 20px;
-    width: 100%;
+    width: 95%;
     text-align: center;
     color: #ecf0f1;
     font-family: 'Sofia Sans', sans-serif;
@@ -157,6 +157,70 @@ span {
 
 header {
     margin: auto;
+}
+
+#body-welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#welcome {
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#welcome h1 {
+    margin-top: 0;
+    font-size: 15px;
+    color: #4ad7d1;
+    text-shadow: none;
+}
+
+#welcome img {
+    height: 60%;
+}
+
+.button {
+    margin-top: 10px;
+    
+
+}
+
+.button a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FE4A49;
+    width: 200px;
+    height: 80px;
+    border-radius: 0%;
+    transition-property: background-color, border-radius;
+    transition-duration: 2s, 2s;
+}
+
+.button a:hover {
+    background-color: #4ad7d1;
+    border-radius: 60%;
+
+}
+
+#footer-welcome {
+    box-sizing: border-box;
+    display: flex;
+    height: 50px;
+    width: 300px;
+    color: #ffffff;
+}
+
+#footer-welcome p {
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    position: relative;
+    padding-top: 45px;
+
 }
 
 #main-content {
@@ -183,8 +247,8 @@ header {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-}   
-    
+}
+
 #tropical-house {
     background-color: #906D7C;
 }
@@ -225,7 +289,7 @@ header {
 
 body {
     display: flex;
-    background: #333;
+    background: #FE4A49;
     flex-direction: column;
     align-items: baseline;
     justify-content: space-between;
@@ -245,13 +309,15 @@ body {
 
 }
 
-.social-icon{
+.social-icon {
     display: flex;
-    flex-direction: row;;
+    flex-direction: row;
+    ;
     justify-content: center;
     gap: 20px;
 }
-.social-icon img{
+
+.social-icon img {
     height: 34px;
 }
 
